@@ -1,0 +1,160 @@
+@font-face {
+    font-family: minhafonte ;
+    src: url(fontes/idroid.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:wheat;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+   
+}
+
+header{
+    background-image:linear-gradient(to bottom,#37C374,#1A5C38);
+    box-sizing: border-box;
+    
+    
+        
+}
+header h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-style: normal;
+    padding: 10px;
+
+}
+header > p{
+    text-align: center;
+    color:rgb(230, 212, 212);
+    padding: 10px;
+}
+
+    
+nav{
+    margin: 2px;
+    margin-bottom: 0;
+    padding: 5px;
+    transition-duration: 0.5s;
+}
+nav > :hover{
+    background-color: #37C374;
+    color: #1A5C38;
+}
+a{
+    text-decoration: none;
+    margin-right: 5px;
+    color: aliceblue;
+}
+
+/*-------meio--------*/
+
+
+main{
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+    min-width: 300px;
+    max-width: 1000px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+
+
+main h2 {   
+    font-family: minhafonte;
+    color: #1A5C38;
+    font-size: 1.3em;
+    font-weight: normal;
+    background-image: linear-gradient(to right,rgba(41, 165, 41, 0.712), transparent);
+}
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+main strong{
+    text-decoration: none;
+    font-weight: bold;
+    color: #1A5C38;
+    background-color: #84E1AD;
+    font-weight:bold ;
+}
+main a{
+    text-decoration: underline;
+    color: #216b41;
+    background-color: #84E1AD;
+    padding: 2px 6px;
+}
+main a:hover{
+    text-decoration: underline;
+    color: #1A5C38;
+
+}
+main img{
+    width: 100%;
+}
+main img.pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+div.video{
+    background-color: #1A5C38;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+
+}
+div.video > iframe{
+ position: absolute;
+ top: 5%;
+ left: 5%;
+ width:90% ;
+ height:90% ;
+}
+footer{
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+aside{
+    background-color: #9ef7c4;
+    padding: 10px;
+    border-radius: 10px 10px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+}
+aside > h3{
+    background-color: #1A5C38;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+aside > ul{
+    list-style-type: '\2714/00A00/00A0';
+    list-style-position: inside;
+    columns: 2;
+
+}
+footer a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
